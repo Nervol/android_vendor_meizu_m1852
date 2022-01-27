@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2020-2021 The LineageOS Project
+ * Copyright (C) 2020-2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -358,14 +358,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-}
-prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.3-service.widevine",
-	owner: "meizu",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
 }
 
 android_app_import {
